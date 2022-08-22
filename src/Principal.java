@@ -1,14 +1,13 @@
 public class Principal {
 
-<<<<<<< HEAD
-    public static void main(String[] args) {
-        Sueldos sueldo = new Sueldos();
 
-        System.out.println("Sueldo basico: "+sueldo.getSuedlo());
-        sueldo.setSueldo(425);
-        System.out.println("Sueldo Ingeniero: "+sueldo.getSuedlo());
+    public static void main(String[] args) {
+        Sueldo sueldo = new Sueldo();
+        sueldo.setSueldo();
+        System.out.println("Sueldo basico: "+sueldo.getSueldo());
+        sueldo.setSueldo(1);
+        System.out.println("Sueldo Ingeniero: "+sueldo.getSueldo());
 
     }
-=======
->>>>>>> 866b8214bb9ee882e135622c8fb75b9bbbb76da1
+
 }
