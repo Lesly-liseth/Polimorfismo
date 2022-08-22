@@ -5,11 +5,11 @@ public class Sueldos {
         sueldo = 375.37f;
     }
 
-    public void setSueldo(float nuevoSuedlo){
-        sueldo = nuevoSuedlo;
+    public void setSueldo(float nuevoSueldo){
+        sueldo = nuevoSueldo;
     }
 
-    float getSuedlo (){
+    float getSueldo (){
         return sueldo;
     }
 }
