@@ -5,6 +5,7 @@ public class Sueldos {
         sueldo = 375.37f;
     }
 
+<<<<<<< HEAD
     public void setSueldo(float sueldoIngeniero){
 
         sueldoIngeniero = sueldo*3;
@@ -13,6 +14,13 @@ public class Sueldos {
 
     float getSuedlo (){
 
+=======
+    public void setSueldo(float nuevoSueldo){
+        sueldo = nuevoSueldo;
+    }
+
+    float getSueldo (){
+>>>>>>> 866b8214bb9ee882e135622c8fb75b9bbbb76da1
         return sueldo;
     }
 }
